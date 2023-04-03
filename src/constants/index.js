@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  nextjsblog,
+  foodProject,
+  hutCentrum,
 } from "../assets";
 
 export const navLinks = [
@@ -49,7 +52,6 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-
 ];
 
 const technologies = [
@@ -101,7 +103,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  
 ];
 
 const experiences = [
@@ -155,7 +156,7 @@ const testimonials = [
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
-  { 
+  {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Abdurashid does.",
     name: "Chris Brown",
@@ -175,16 +176,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Next Js Project",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "graphql",
         color: "green-text-gradient",
       },
       {
@@ -192,41 +193,38 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: nextjsblog,
+    source_code_link: "https://github.com/kingdev5809/next-js-blog-first",
   },
   {
-    name: "Job IT",
+    name: "Food Project",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
+      
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: foodProject,
+    source_code_link: "https://github.com/kingdev5809/shop-project-first",
   },
   {
-    name: "Trip Guide",
+    name: "Hut centrum",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -234,8 +232,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: hutCentrum,
+    source_code_link: "https://github.com/kingdev5809/CRM-project",
   },
 ];
 
