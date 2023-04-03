@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { cvResume } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -45,6 +46,9 @@ const About = () => {
         efficient,scalable, and use-friendly solutions that solve real-world
         problems. Let's work together to bring your ideas to life
       </motion.p>
+      <motion.div className="my-4">
+        <a className="my-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  text-white font-bold py-2 px-4 rounded" href={cvResume}>Download CV</a>
+      </motion.div>
       <div className="justify-evenly mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

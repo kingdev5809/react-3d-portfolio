@@ -34,6 +34,8 @@ import nextjsblog from "./projects/nextjs.png";
 import foodProject from "./projects/food-project.png";
 import hutCentrum from "./projects/hut-centrum.png";
 
+import cvResume from './cv.pdf'
+
 export {
   logo,
   backend,
@@ -66,4 +68,5 @@ export {
   nextjsblog,
   foodProject,
   hutCentrum,
+  cvResume
 };
