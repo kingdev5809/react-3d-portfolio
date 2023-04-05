@@ -34,7 +34,7 @@ import nextjsblog from "./projects/nextjs.png";
 import foodProject from "./projects/food-project.png";
 import hutCentrum from "./projects/hut-centrum.png";
 
-import cvResume from './resume.pdf'
+import cvResume from './myCv.pdf'
 
 export {
   logo,
